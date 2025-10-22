@@ -52,7 +52,9 @@
     "extra": {
       "eas": {
         "projectId": "fundlink"
-      }
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://ztiirfcyyobhlwdtcxbt.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0aWlyZmN5eW9iaGx3ZHRjeGJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExMzM0MDMsImV4cCI6MjA3NjcwOTQwM30.kkv5fZ7bMCAmWXCGpOwQzRmLc-lCRB1KVr1R5Yfys0o"
     }
   }
 }
