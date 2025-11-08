@@ -28,10 +28,13 @@ export default function ProfileScreen() {
 
   useEffect(() => {
     fetchRoleProfile();
-    if (profile?.role === 'startup') {
+  }, [profile]);
+
+  useEffect(() => {
+    if (profile?.role === 'startup' && roleProfile) {
       fetchStartupStats();
     }
-  }, [profile]);
+  }, [profile, roleProfile]);
 
   const fetchRoleProfile = async () => {
     if (!profile) return;
